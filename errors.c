@@ -6,7 +6,7 @@
  *
  * Return: Nothing
  */
-void _eputs(const char *str)
+void _eputs(char *str)
 {
 	if (!str)
 		return;
@@ -71,7 +71,7 @@ int _putfd(char c, int fd)
  *
  * Return: the number of chars put
  */
-int _putsfd(const char *str, int fd)
+int _putsfd(char *str, int fd)
 {
 	int count = 0;
 
